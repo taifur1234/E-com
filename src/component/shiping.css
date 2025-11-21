@@ -1,0 +1,919 @@
+/* Shipping Address Section */
+
+.checkout-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+  padding: 40px 0;
+}
+
+.checkout-wrapper {
+  margin-top: 75px;
+  display: flex;
+  gap: 40px;
+  width: 85%;
+  max-width: 1200px;
+  background: white;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ---------- Step Indicator ---------- */
+ .cart-step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+ .cart-step .step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex: 1;
+}
+
+ .step-number {
+  background: #ddd;
+  color: #555;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+ .step-label {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #666;
+}
+
+.shipping-section .cart-step .step.active .step-number {
+  background: orangered;
+  color: white;
+}
+
+ .step-line {
+  flex: 1;
+  height: 2px;
+  background: #ddd;
+  margin: 0 8px;
+}
+
+/* ---------- Shipping Section ---------- */
+.shipping-section {
+  flex: 2;
+}
+
+.shipping-section .shipping-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.shipping-form {
+  display: flex;
+  flex-direction: column;
+}
+ .form-row {
+  display: flex;
+  gap: 20px;
+}
+
+ .form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.shipping-section .form-group label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+ .form-group input,
+.form-group select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.shipping-section .phone-input {
+  display: flex;
+  gap: 10px;
+}
+
+/* ---------- Cart Section ---------- */
+.cart-section {
+  flex: 1;
+  border-left: 1px solid #eee;
+  padding-left: 30px;
+}
+
+.cart-section .cart-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.cart-section .cart-item-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.cart-section .cart-item-div img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.cart-section .cart-item-div-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-section .item-title {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.cart-section .item-subtitle {
+  font-size: 13px;
+  color: #777;
+}
+
+.cart-section .item-price {
+  margin-left: auto;
+  font-weight: 500;
+}
+.cart-item-div{
+  position: relative;
+}
+.product-quantity{
+  position: absolute;
+  top: -20%;
+  left: 15%;
+  background-color: black;
+  font-size: 13px;
+  padding: 4px 8px 4px 8px;
+  color: white;
+  border-radius: 100%;
+  text-align: center;
+}
+
+/* ---------- Discount Input ---------- */
+.cart-section .discount {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.cart-section .discount input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.cart-section .discount button {
+  background: orangered;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ---------- Summary ---------- */
+.cart-section .summary {
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.cart-section .summary-row,
+.cart-section .summary-total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cart-section .summary-total {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* ---------- Button ---------- */
+.cart-section .continue-btn {
+  width: 100%;
+  background: orangered;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-weight: 600;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+ .cart-step .step.active .step-number {
+  background: orangered;
+  color: white;
+}
+
+/* media query starts */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .checkout-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+   .cart-step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+ .checkout-wrapper .cart-section{
+    border-left: none;
+    padding-left: 0px;
+  }
+ .step-number {
+  background: #ddd;
+  font-size: 13px;
+  color: #555;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+ .step-label {
+  margin-top: 6px;
+  font-size: 11px;
+  color: #666;
+}
+.form-group input::placeholder{
+    font-size: 0.8rem;
+}
+.shipping-section .form-group input{
+    font-size: 0.8rem;
+}
+.shipping-section .cart-step .step.active .step-number {
+  background: orangered;
+  color: white;
+}
+
+ .cart-item-div{
+  position: relative;
+}
+.product-quantity{
+  position: absolute;
+  top: -8px;
+  left: 47px;
+  background-color: black;
+  font-size: 13px;
+  padding: 3px 7px 3px 7px;
+  color: white;
+  border-radius: 100%;
+  text-align: center;
+}
+
+}
+
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .checkout-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+   .cart-step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 90px;
+  margin-bottom: 30px;
+}
+ .checkout-wrapper .cart-section{
+    border-left: 2px solid #eee;
+  }
+ .step-number {
+  background: #ddd;
+  font-size: 13px;
+  color: #555;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+ .step-label {
+  margin-top: 6px;
+  font-size: 11px;
+  color: #666;
+}
+.form-group input::placeholder{
+    font-size: 0.8rem;
+}
+.shipping-section .form-group input{
+    font-size: 0.8rem;
+}
+.shipping-section .cart-step .step.active .step-number {
+  background: orangered;
+  color: white;
+}
+
+ .cart-item-div{
+  position: relative;
+}
+.product-quantity{
+  position: absolute;
+  top: -8px;
+  left: 47px;
+  background-color: black;
+  font-size: 13px;
+  padding: 3px 7px 3px 7px;
+  color: white;
+  border-radius: 100%;
+  text-align: center;
+}
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .checkout-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+  }
+
+   .cart-step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 90px;
+  margin-bottom: 30px;
+}
+ .checkout-wrapper .cart-section{
+    border-left: 2px solid #eee;
+  }
+ .step-number {
+  background: #ddd;
+  font-size: 13px;
+  color: #555;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+ .step-label {
+  margin-top: 6px;
+  font-size: 11px;
+  color: #666;
+}
+.form-group input::placeholder{
+    font-size: 0.8rem;
+}
+.shipping-section .form-group input{
+    font-size: 0.8rem;
+}
+.shipping-section .cart-step .step.active .step-number {
+  background: orangered;
+  color: white;
+}
+
+ .cart-item-div{
+  position: relative;
+}
+.product-quantity{
+  position: absolute;
+  top: -10px;
+  left: 47px;
+  background-color: black;
+  font-size: 13px;
+  padding: 3px 7px 3px 7px;
+  color: white;
+  border-radius: 100%;
+  text-align: center;
+}
+
+}
+
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+  .checkout-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+  }
+
+   .cart-step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 90px;
+  margin-bottom: 30px;
+}
+ .checkout-wrapper .cart-section{
+    border-left: 2px solid #eee;
+  }
+ .step-number {
+  background: #ddd;
+  font-size: 13px;
+  color: #555;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+ .step-label {
+  margin-top: 6px;
+  font-size: 11px;
+  color: #666;
+}
+.form-group input::placeholder{
+    font-size: 0.8rem;
+}
+.shipping-section .form-group input{
+    font-size: 0.8rem;
+}
+.shipping-section .cart-step .step.active .step-number {
+  background: orangered;
+  color: white;
+}
+
+ .cart-item-div{
+  position: relative;
+}
+.product-quantity{
+  position: absolute;
+  top: -10px;
+  left: 47px;
+  background-color: black;
+  font-size: 13px;
+  padding: 3px 7px 3px 7px;
+  color: white;
+  border-radius: 100%;
+  text-align: center;
+}
+
+}
+
+
+@media (min-width: 1441px) and (max-width: 1600px) {
+  .checkout-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+  }
+
+   .cart-step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 130px;
+  margin-bottom: 30px;
+}
+ .checkout-wrapper .cart-section{
+    border-left: 2px solid #eee;
+  }
+ .step-number {
+  background: #ddd;
+  font-size: 13px;
+  color: #555;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+ .step-label {
+  margin-top: 6px;
+  font-size: 11px;
+  color: #666;
+}
+.form-group input::placeholder{
+    font-size: 0.8rem;
+}
+.shipping-section .form-group input{
+    font-size: 0.8rem;
+}
+.shipping-section .cart-step .step.active .step-number {
+  background: orangered;
+  color: white;
+}
+
+ .cart-item-div{
+  position: relative;
+}
+.product-quantity{
+  position: absolute;
+  top: -10px;
+  left: 47px;
+  background-color: black;
+  font-size: 13px;
+  padding: 3px 7px 3px 7px;
+  color: white;
+  border-radius: 100%;
+  text-align: center;
+}
+
+}
+
+
+
+@media (min-width: 1601px) and (max-width: 1920px) {
+  .checkout-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+  }
+
+   .cart-step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 140px;
+  margin-bottom: 30px;
+}
+ .checkout-wrapper .cart-section{
+    border-left: 2px solid #eee;
+  }
+ .step-number {
+  background: #ddd;
+  font-size: 13px;
+  color: #555;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+ .step-label {
+  margin-top: 6px;
+  font-size: 11px;
+  color: #666;
+}
+.form-group input::placeholder{
+    font-size: 0.8rem;
+}
+.shipping-section .form-group input{
+    font-size: 0.8rem;
+}
+
+
+ .cart-item-div{
+  position: relative;
+}
+.product-quantity{
+  position: absolute;
+  top: -10px;
+  left: 47px;
+  background-color: black;
+  font-size: 13px;
+  padding: 3px 7px 3px 7px;
+  color: white;
+  border-radius: 100%;
+  text-align: center;
+}
+
+}
+
+
+/* ===== Review Popup Style ===== */
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-box {
+  background: #fff;
+  width: 400px;
+  max-width: 90%;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  animation: scaleIn 0.3s ease;
+}
+
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff4444;
+  cursor: pointer;
+}
+
+.popup-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.popup-field label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.popup-field input,
+.popup-field textarea {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+.popup-field textarea {
+  resize: none;
+  height: 80px;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.star {
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.star.active {
+  color: orange;
+}
+
+.popup-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.popup-btn button {
+  background: orangered;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* 🔧 Always show SweetAlert above custom popups */
+.swal2-container {
+  z-index: 10000 !important;
+}
+
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-row{
+    flex-wrap: wrap;
+  }
+  .popup-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .popup-field label {
+    font-size: 13px;
+  }
+
+  .popup-field input,
+  .popup-field textarea {
+    font-size: 13px;
+  }
+
+  .popup-btn button {
+    width: 100%;
+  }
+}
+.swal2-popup {
+  min-height: 250px !important; 
+  padding: 30px 20px !important; 
+
+}
+
+
+.custom-loader {
+  border: 4px solid #333;       
+  border-top: 4px solid #ff6a00; 
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+  animation: spin 1s linear infinite;
+}
+
+/* Rotate animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* 🔸 Customize timer progress bar color */
+.swal2-timer-progress-bar {
+  background-color: #ff6a00 !important;
+}
+
+
+/* ===== PAYMENT POPUP BOX ===== */
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.popup-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px 28px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  animation: popupIn 0.3s ease;
+  position: relative;
+}
+
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #444;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.close-popup:hover {
+  color: #ff6a00;
+}
+
+/* ===== PAYMENT METHOD BUTTONS ===== */
+.method-btn {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #f8f8f8;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.method-btn:hover {
+  border-color: #ff6a00;
+  color: #ff6a00;
+}
+
+.method-btn.active {
+  background: #ff6a00;
+  color: #fff;
+  border-color: #ff6a00;
+}
+
+/* ===== CARD FORM ===== */
+.card-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.card-form label {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 2px;
+}
+
+.card-form input,
+.popup-box input,
+.popup-box select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.card-form input:focus,
+.popup-box input:focus,
+.popup-box select:focus {
+  border-color: #ff6a00;
+  box-shadow: 0 0 0 2px rgba(255, 106, 0, 0.15);
+}
+
+/* ===== PROGRESS BAR ===== */
+.payment-progress {
+  height: 8px;
+  background: #eee;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 12px;
+}
+
+.payment-progress-bar {
+  height: 100%;
+  background: #ff6a00;
+  transition: width 300ms linear;
+}
+
+/* ===== ANIMATION ===== */
+@keyframes popupIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+
+
+
+

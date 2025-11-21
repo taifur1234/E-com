@@ -1,0 +1,226 @@
+/* Page Container */
+.contact-page {
+  font-family: 'Poppins', sans-serif;
+  background: #fff; /* overall page white */
+  min-height: 100vh;
+  padding: 50px 20px;
+  color: #111;
+}
+
+/* Heading - Get In Touch */
+.contact-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-header h1 {
+  font-size: 2.5rem;
+  color:black; /* White text */
+  background-color: white; /* Highlight */
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.contact-header h1::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 4px;
+  background: orangered;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+/* Flex Content */
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+/* Form Section - Inputs kept same as before */
+.contact-form-section {
+  flex: 1;
+  min-width: 300px;
+  background: #f9f9f9; /* dark background for form */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.contact-form-section h2 {
+  margin-bottom: 20px;
+  color:black; /* White heading */
+  text-align: center;
+  position: relative;
+}
+
+.contact-form-section h2::after {
+  content: '';
+  display: block;
+  width: 40%;
+  height: 3px;
+  background: orangered;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+/* Inputs / Textarea - same as original dark style */
+.contact-form-section input,
+.contact-form-section textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid silver;
+  background: rgba(224, 223, 223, 0.2);
+  color:black;
+  outline: none;
+}
+.contact-form-section input:first-child{
+  box-sizing: border-box;
+}
+.contact-form-section input::placeholder,
+.contact-form-section textarea::placeholder {
+  color:black;
+}
+
+/* Button */
+.contact-form-section button {
+  width: 100%;
+  padding: 12px;
+  background: orangered;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form-section button:hover {
+  background: #fff;
+  color: orangered;
+  border: 1px solid orangered;
+}
+
+/* Info Section */
+.contact-info-section {
+  flex: 1;
+  min-width: 250px;
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.contact-info-section h2 {
+  margin-bottom: 20px;
+  color:black;
+  text-align: center;
+  position: relative;
+}
+
+.contact-info-section h2::after {
+  content: '';
+  display: block;
+  width: 40%;
+  height: 3px;
+  background: orangered;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+ margin-top: 30px;
+  gap: 30px;
+}
+
+.info-item i {
+  font-size: 2rem;
+  color: orangered;
+}
+
+.info-item p {
+  font-weight: bold;
+  margin: 0;
+  color:black;
+}
+
+.info-item span {
+  color:black;
+  font-size: 0.9rem;
+}
+/* Responsive Fix for 320px - 480px */
+@media screen and (max-width: 480px) {
+  .contact-page {
+    padding: 20px 10px; /* reduce padding for small screens */
+  }
+
+  .contact-header h1 {
+    font-size: 1.8rem;
+    padding: 8px 12px; /* less padding inside box */
+    max-width: 90%; /* ensures it doesn't overflow */
+    box-sizing: border-box;
+    word-wrap: break-word; /* allows wrapping if text too long */
+  }
+
+  .contact-content {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contact-form-section,
+  .contact-info-section {
+    width: 100%;
+    max-width: 100%;
+    padding: 15px;
+    box-sizing: border-box; /* include padding in width */
+  }
+
+  .contact-form-section h2,
+  .contact-info-section h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .contact-form-section input,
+  .contact-form-section textarea {
+    font-size: 0.85rem;
+  }
+
+  .contact-form-section button {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .info-item {
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .info-item i {
+    font-size: 1.5rem;
+  }
+
+  .info-item p {
+    font-size: 0.9rem;
+  }
+
+  .info-item span {
+    font-size: 0.8rem;
+  }
+}
+
+
+.swal2-timer-progress-bar {
+  background: linear-gradient(90deg, #ff6a00, #ffb347) !important;
+  box-shadow: 0 0 10px #ff6a00;
+}

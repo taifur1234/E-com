@@ -1,0 +1,899 @@
+{
+  "Airbuds": [
+    {
+      "id": 1,
+      "offer": "Extra ₹200 OFF",
+      "img": "/imges/ep1.jpeg",
+      "feature": "120 Hours Playback",
+      "rating": 4.6,
+      "title": "PHIOX AirBuds X1",
+      "price": "₹1,199",
+      "oldPrice": "₹3,999",
+      "discount": "70% OFF"
+    },
+    {
+      "id": 2,
+      "offer": "Extra ₹150 OFF",
+      "img": "/imges/ep2.jpeg",
+      "feature": "Noise Cancellation",
+      "rating": 4.2,
+      "title": "PHIOX Buds Neo 2",
+      "price": "₹1,499",
+      "oldPrice": "₹3,499",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 3,
+      "offer": "Extra ₹250 OFF",
+      "img": "/imges/ep3.jpeg",
+      "feature": "Deep Bass 13mm Drivers",
+      "rating": 4.4,
+      "title": "PHIOX SonicPods 101",
+      "price": "₹1,249",
+      "oldPrice": "₹2,999",
+      "discount": "55% OFF"
+    },
+    {
+      "id": 4,
+      "offer": "Extra ₹300 OFF",
+      "img": "/imges/ep4.jpeg",
+      "feature": "Quad Mic with ENC",
+      "rating": 3.9,
+      "title": "PHIOX Airdopes 215",
+      "price": "₹1,799",
+      "oldPrice": "₹3,499",
+      "discount": "50% OFF"
+    },
+    {
+      "id": 5,
+      "offer": "Extra ₹180 OFF",
+      "img": "/imges/ep5.jpeg",
+      "feature": "Touch Controls Assistant",
+      "rating": 4.3,
+      "title": "PHIOX TWS Max 350",
+      "price": "₹1,099",
+      "oldPrice": "₹2,699",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 6,
+      "offer": "Extra ₹220 OFF",
+      "img": "/imges/ep6.jpeg",
+      "feature": "Fast Charging 100 Min",
+      "rating": 4.5,
+      "title": "PHIOX Pods 420 Pro",
+      "price": "₹1,279",
+      "oldPrice": "₹3,199",
+      "discount": "65% OFF"
+    },
+    {
+      "id": 7,
+      "offer": "Extra ₹300 OFF",
+      "img":"/imges/ep7.jpeg",
+      "feature": "Gaming Mode 40ms",
+      "rating": 4.1,
+      "title": "PHIOX GamePods G1",
+      "price": "₹1,399",
+      "oldPrice": "₹3,499",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 8,
+      "offer": "Extra ₹100 OFF",
+      "img": "/imges/ep8.jpeg",
+      "feature": "Dual Pairing Support",
+      "rating": 3.8,
+      "title": "PHIOX TrueBeats 115",
+      "price": "₹999",
+      "oldPrice": "₹2,499",
+      "discount": "55% OFF"
+    },
+    {
+      "id": 9,
+      "offer": "Extra ₹350 OFF",
+      "img": "/imges/ep9.jpeg",
+      "feature": "AI Noise Cancellation",
+      "rating": 4.7,
+      "title": "PHIOX EliteBuds 550",
+      "price": "₹1,649",
+      "oldPrice": "₹3,999",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 10,
+      "offer": "Extra ₹200 OFF",
+      "img": "/imges/ep10.jpeg",
+      "feature": "13mm Dynamic Drivers",
+      "rating": 4.0,
+      "title": "PHIOX AirBeat Z2",
+      "price": "₹1,199",
+      "oldPrice": "₹2,999",
+      "discount": "60% OFF"
+    }
+  ],
+
+  "Neckbands": [
+    {
+      "id": 1,
+      "offer": "Extra ₹100 OFF",
+      "img": "/imges/nb1.jpeg",
+      "feature": "50 Hours Battery Life",
+      "rating": 4.3,
+      "title": "PHIOX Flex 100",
+      "price": "₹899",
+      "oldPrice": "₹1,999",
+      "discount": "55% OFF"
+    },
+    {
+      "id": 2,
+      "offer": "Extra ₹200 OFF",
+      "img": "/imges/nb2.jpeg",
+      "feature": "Magnetic Earbuds",
+      "rating": 4.2,
+      "title": "PHIOX Tune 250",
+      "price": "₹1,099",
+      "oldPrice": "₹2,499",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 3,
+      "offer": "Extra ₹150 OFF",
+      "img":  "/imges/nb3.jpeg",
+      "feature": "Low Latency Mode",
+      "rating": 4.1,
+      "title": "PHIOX SonicWave 150",
+      "price": "₹1,199",
+      "oldPrice": "₹2,699",
+      "discount": "55% OFF"
+    },
+    {
+      "id": 4,
+      "offer": "Extra ₹100 OFF",
+      "img":  "/imges/nb4.jpeg",
+      "feature": "Deep Bass Boost",
+      "rating": 3.9,
+      "title": "PHIOX BeatBand 300",
+      "price": "₹899",
+      "oldPrice": "₹1,999",
+      "discount": "55% OFF"
+    },
+    {
+      "id": 5,
+      "offer": "Extra ₹120 OFF",
+      "img":  "/imges/nb5.jpeg",
+      "feature": "Fast Charging 10 Min=10 Hrs",
+      "rating": 4.5,
+      "title": "PHIOX QuickCharge 220",
+      "price": "₹1,049",
+      "oldPrice": "₹2,499",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 6,
+      "offer": "Extra ₹150 OFF",
+      "img":  "/imges/nb6.jpeg",
+      "feature": "Dual Pairing Support",
+      "rating": 4.3,
+      "title": "PHIOX NeckMax 320",
+      "price": "₹1,099",
+      "oldPrice": "₹2,699",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 7,
+      "offer": "Extra ₹180 OFF",
+      "img":  "/imges/nb7.jpeg",
+      "feature": "Voice Assistant Support",
+      "rating": 4.4,
+      "title": "PHIOX WavePro 120",
+      "price": "₹1,249",
+      "oldPrice": "₹2,999",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 8,
+      "offer": "Extra ₹200 OFF",
+      "img":  "/imges/nb8.jpeg",
+      "feature": "Vibration Alert Calls",
+      "rating": 4.1,
+      "title": "PHIOX Alert 220",
+      "price": "₹1,299",
+      "oldPrice": "₹3,199",
+      "discount": "65% OFF"
+    },
+    {
+      "id": 9,
+      "offer": "Extra ₹120 OFF",
+      "img":  "/imges/nb9.jpeg",
+      "feature": "Water Resistant IPX5",
+      "rating": 4.0,
+      "title": "PHIOX AquaTune 210",
+      "price": "₹999",
+      "oldPrice": "₹2,499",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 10,
+      "offer": "Extra ₹100 OFF",
+      "img":  "/imges/nb10.jpeg",
+      "feature": "Flexible Neck Design",
+      "rating": 3.8,
+      "title": "PHIOX ComfortBand 100",
+      "price": "₹899",
+      "oldPrice": "₹1,999",
+      "discount": "55% OFF"
+    }
+  ],
+  "Wired Headphones": [
+    {
+      "id": 1,
+      "offer": "Extra ₹100 OFF",
+      "img": "/imges/we1.jpeg",
+      "feature": "40mm Drivers, Hi-Fi Audio",
+      "rating": 4.5,
+      "title": "PHIOX Studio Pro",
+      "price": "₹1,599",
+      "oldPrice": "₹3,999",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 2,
+      "offer": "Extra ₹50 OFF",
+      "img":  "/imges/we2.jpeg",
+      "feature": "In-line Mic & Controls",
+      "rating": 4.2,
+      "title": "PHIOX Flex Connect",
+      "price": "₹499",
+      "oldPrice": "₹1,299",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 3,
+      "offer": "Extra ₹120 OFF",
+      "img":  "/imges/we3.jpeg",
+      "feature": "Noise Isolating Earpads",
+      "rating": 4.3,
+      "title": "PHIOX HD Monitor",
+      "price": "₹1,299",
+      "oldPrice": "₹3,199",
+      "discount": "59% OFF"
+    },
+    {
+      "id": 4,
+      "offer": "Extra ₹80 OFF",
+      "img": "/imges/we4.jpeg",
+      "feature": "Durable Tangle-Free Cable",
+      "rating": 4.0,
+      "title": "PHIOX PureSound Z",
+      "price": "₹799",
+      "oldPrice": "₹1,999",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 5,
+      "offer": "Extra ₹150 OFF",
+      "img":  "/imges/we5.jpeg",
+      "feature": "Professional Grade Comfort",
+      "rating": 4.6,
+      "title": "PHIOX OverDrive 50",
+      "price": "₹1,749",
+      "oldPrice": "₹4,499",
+      "discount": "61% OFF"
+    },
+    {
+      "id": 6,
+      "offer": "Extra ₹60 OFF",
+      "img": "/imges/we6.jpeg",
+      "feature": "High Sensitivity Mic",
+      "rating": 4.1,
+      "title": "PHIOX Voice Clarity",
+      "price": "₹699",
+      "oldPrice": "₹1,599",
+      "discount": "56% OFF"
+    },
+    {
+      "id": 7,
+      "offer": "Extra ₹110 OFF",
+      "img":  "/imges/we7.jpeg",
+      "feature": "Foldable Design",
+      "rating": 3.9,
+      "title": "PHIOX Travel Fold",
+      "price": "₹999",
+      "oldPrice": "₹2,499",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 8,
+      "offer": "Extra ₹90 OFF",
+      "img":  "/imges/we8.jpeg",
+      "feature": "Deep Thumping Bass",
+      "rating": 4.4,
+      "title": "PHIOX Bass-X 300",
+      "price": "₹1,099",
+      "oldPrice": "₹2,799",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 9,
+      "offer": "Extra ₹70 OFF",
+      "img":  "/imges/we9.jpeg",
+      "feature": "3.5mm & USB-C Adapter",
+      "rating": 4.2,
+      "title": "PHIOX Universal Fit",
+      "price": "₹849",
+      "oldPrice": "₹2,199",
+      "discount": "61% OFF"
+    },
+    {
+      "id": 10,
+      "offer": "Extra ₹130 OFF",
+      "img":  "/imges/we10.jpeg",
+      "feature": "Comfort-Fit Ear Cushions",
+      "rating": 4.3,
+      "title": "PHIOX Comfort 450",
+      "price": "₹1,349",
+      "oldPrice": "₹3,299",
+      "discount": "59% OFF"
+    }
+  ],
+  "Gaming Headphones": [
+    {
+      "id": 1,
+      "offer": "Extra ₹200 OFF",
+      "img": "/imges/bh1.jpeg",
+      "feature": "7.1 Surround Sound",
+      "rating": 4.6,
+      "title": "PHIOX Pro-Gamer X1",
+      "price": "₹2,499",
+      "oldPrice": "₹6,999",
+      "discount": "64% OFF"
+    },
+    {
+      "id": 2,
+      "offer": "Extra ₹150 OFF",
+      "img": "/imges/bh2.jpeg",
+      "feature": "Detachable Boom Mic",
+      "rating": 4.3,
+      "title": "PHIOX ThunderStrike",
+      "price": "₹1,999",
+      "oldPrice": "₹5,499",
+      "discount": "63% OFF"
+    },
+    {
+      "id": 3,
+      "offer": "Extra ₹300 OFF",
+      "img": "/imges/bh3.jpeg",
+      "feature": "RGB Lighting Effects",
+      "rating": 4.5,
+      "title": "PHIOX Specter Elite",
+      "price": "₹2,999",
+      "oldPrice": "₹7,999",
+      "discount": "62% OFF"
+    },
+    {
+      "id": 4,
+      "offer": "Extra ₹100 OFF",
+      "img":"/imges/bh4.jpeg",
+      "feature": "Low-Latency USB Connection",
+      "rating": 4.1,
+      "title": "PHIOX WarpSpeed 50",
+      "price": "₹1,699",
+      "oldPrice": "₹3,999",
+      "discount": "57% OFF"
+    },
+    {
+      "id": 5,
+      "offer": "Extra ₹180 OFF",
+      "img": "/imges/bh5.jpeg",
+      "feature": "Memory Foam Earpads",
+      "rating": 4.4,
+      "title": "PHIOX Comfort Gamer",
+      "price": "₹2,199",
+      "oldPrice": "₹5,999",
+      "discount": "63% OFF"
+    },
+    {
+      "id": 6,
+      "offer": "Extra ₹120 OFF",
+      "img": "/imges/bh6.jpeg",
+      "feature": "Cross-Platform Compatible",
+      "rating": 4.2,
+      "title": "PHIOX Multiplay 400",
+      "price": "₹1,849",
+      "oldPrice": "₹4,999",
+      "discount": "63% OFF"
+    },
+    {
+      "id": 7,
+      "offer": "Extra ₹250 OFF",
+      "img":"/imges/bh7.jpeg",
+      "feature": "Environmental Noise Cancellation (ENC)",
+      "rating": 4.7,
+      "title": "PHIOX ClearCom 700",
+      "price": "₹2,699",
+      "oldPrice": "₹7,499",
+      "discount": "64% OFF"
+    },
+    {
+      "id": 8,
+      "offer": "Extra ₹90 OFF",
+      "img":"/imges/bh8.jpeg",
+      "feature": "50mm Neodymium Drivers",
+      "rating": 4.0,
+      "title": "PHIOX PowerAudio",
+      "price": "₹1,499",
+      "oldPrice": "₹3,499",
+      "discount": "57% OFF"
+    },
+    {
+      "id": 9,
+      "offer": "Extra ₹160 OFF",
+      "img": "/imges/bh9.jpeg",
+      "feature": "Flip-to-Mute Mic",
+      "rating": 4.3,
+      "title": "PHIOX Stealth Mode",
+      "price": "₹2,099",
+      "oldPrice": "₹5,699",
+      "discount": "63% OFF"
+    },
+    {
+      "id": 10,
+      "offer": "Extra ₹210 OFF",
+      "img": "/imges/bh10.jpeg",
+      "feature": "Dedicated Volume Mixer",
+      "rating": 4.5,
+      "title": "PHIOX Commander V2",
+      "price": "₹2,599",
+      "oldPrice": "₹6,499",
+      "discount": "60% OFF"
+    }
+  ],
+  "Smartwatches": [
+    {
+      "id": 1,
+      "offer": "Extra ₹300 OFF",
+      "img":"/imges/sm1.jpeg",
+      "feature": "1.9\" AMOLED Display",
+      "rating": 4.5,
+      "title": "PHIOX Alpha 3 Pro",
+      "price": "₹3,999",
+      "oldPrice": "₹8,999",
+      "discount": "56% OFF"
+    },
+    {
+      "id": 2,
+      "offer": "Extra ₹250 OFF",
+      "img":"/imges/sm2.jpeg",
+      "feature": "Bluetooth Calling & GPS",
+      "rating": 4.2,
+      "title": "PHIOX CallTrack 2",
+      "price": "₹3,499",
+      "oldPrice": "₹7,999",
+      "discount": "56% OFF"
+    },
+    {
+      "id": 3,
+      "offer": "Extra ₹150 OFF",
+      "img": "/imges/sm3.jpeg",
+      "feature": "SpO2 & Heart Rate Monitor",
+      "rating": 4.4,
+      "title": "PHIOX Health Buddy",
+      "price": "₹2,999",
+      "oldPrice": "₹6,499",
+      "discount": "54% OFF"
+    },
+    {
+      "id": 4,
+      "offer": "Extra ₹100 OFF",
+      "img": "/imges/sm4.jpeg",
+      "feature": "100+ Sports Modes",
+      "rating": 3.9,
+      "title": "PHIOX FitTrack Z",
+      "price": "₹1,999",
+      "oldPrice": "₹4,999",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 5,
+      "offer": "Extra ₹400 OFF",
+      "img": "/imges/sm5.jpeg",
+      "feature": "Stainless Steel Case, AOD",
+      "rating": 4.6,
+      "title": "PHIOX Elite Series 5",
+      "price": "₹4,999",
+      "oldPrice": "₹10,999",
+      "discount": "55% OFF"
+    },
+    {
+      "id": 6,
+      "offer": "Extra ₹180 OFF",
+      "img":"/imges/sm6.jpeg",
+      "feature": "IP68 Water Resistance",
+      "rating": 4.1,
+      "title": "PHIOX Aqua Watch 10",
+      "price": "₹2,499",
+      "oldPrice": "₹5,499",
+      "discount": "55% OFF"
+    },
+    {
+      "id": 7,
+      "offer": "Extra ₹220 OFF",
+      "img":"/imges/sm7.jpeg",
+      "feature": "Sleep & Stress Monitoring",
+      "rating": 4.3,
+      "title": "PHIOX Zen Life",
+      "price": "₹3,199",
+      "oldPrice": "₹7,199",
+      "discount": "55% OFF"
+    },
+    {
+      "id": 8,
+      "offer": "Extra ₹120 OFF",
+      "img": "/imges/sm8.jpeg",
+      "feature": "AI Voice Assistant Support",
+      "rating": 4.0,
+      "title": "PHIOX Smart Voice",
+      "price": "₹2,299",
+      "oldPrice": "₹4,999",
+      "discount": "54% OFF"
+    },
+    {
+      "id": 9,
+      "offer": "Extra ₹350 OFF",
+      "img": "/imges/sm9.jpeg",
+      "feature": "7-Day Battery Life, Fast Charge",
+      "rating": 4.7,
+      "title": "PHIOX Endurance 7",
+      "price": "₹3,799",
+      "oldPrice": "₹9,499",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 10,
+      "offer": "Extra ₹200 OFF",
+      "img":"/imges/sm10.jpeg",
+      "feature": "Customizable Watch Faces",
+      "rating": 4.2,
+      "title": "PHIOX StylePro",
+      "price": "₹2,699",
+      "oldPrice": "₹6,199",
+      "discount": "56% OFF"
+    }
+  ],
+  "Round Smartwatches": [
+    {
+      "id": 1,
+      "offer": "Extra ₹250 OFF",
+      "img": "/imges/rs1.jpeg",
+      "feature": "1.43\" AMOLED Display",
+      "rating": 4.6,
+      "title": "PHIOX Classic 45",
+      "price": "₹4,499",
+      "oldPrice": "₹9,999",
+      "discount": "55% OFF"
+    },
+    {
+      "id": 2,
+      "offer": "Extra ₹150 OFF",
+      "img": "/imges/rs2.jpeg",
+      "feature": "Functional Rotating Crown",
+      "rating": 4.3,
+      "title": "PHIOX Crown Elite",
+      "price": "₹3,999",
+      "oldPrice": "₹8,499",
+      "discount": "53% OFF"
+    },
+    {
+      "id": 3,
+      "offer": "Extra ₹100 OFF",
+      "img": "/imges/watch.jpeg",
+      "feature": "Metal Build & Leather Strap",
+      "rating": 4.5,
+      "title": "PHIOX Heritage 2",
+      "price": "₹4,199",
+      "oldPrice": "₹9,299",
+      "discount": "55% OFF"
+    },
+    {
+      "id": 4,
+      "offer": "Extra ₹200 OFF",
+      "img": "/imges/rs4.jpeg",
+      "feature": "Always-On-Display (AOD)",
+      "rating": 4.1,
+      "title": "PHIOX AlwaysView Z",
+      "price": "₹3,599",
+      "oldPrice": "₹7,999",
+      "discount": "55% OFF"
+    },
+    {
+      "id": 5,
+      "offer": "Extra ₹80 OFF",
+      "img": "/imges/rs5.jpeg",
+      "feature": "Built-in GPS for Running",
+      "rating": 4.4,
+      "title": "PHIOX RunMaster G1",
+      "price": "₹3,899",
+      "oldPrice": "₹8,699",
+      "discount": "55% OFF"
+    },
+    {
+      "id": 6,
+      "offer": "Extra ₹300 OFF",
+      "img":"/imges/rs6.jpeg",
+      "feature": "Premium Titanium Finish",
+      "rating": 4.7,
+      "title": "PHIOX Ultra Round",
+      "price": "₹5,499",
+      "oldPrice": "₹12,499",
+      "discount": "56% OFF"
+    },
+    {
+      "id": 7,
+      "offer": "Extra ₹120 OFF",
+      "img": "/imges/rs7.jpeg",
+      "feature": "Multi-day Battery Life",
+      "rating": 4.2,
+      "title": "PHIOX Stamina 10",
+      "price": "₹3,699",
+      "oldPrice": "₹8,299",
+      "discount": "55% OFF"
+    },
+    {
+      "id": 8,
+      "offer": "Extra ₹160 OFF",
+      "img": "/imges/rs8.jpeg",
+      "feature": "Health Monitoring Suite",
+      "rating": 4.3,
+      "title": "PHIOX Wellness Watch",
+      "price": "₹4,099",
+      "oldPrice": "₹8,999",
+      "discount": "54% OFF"
+    },
+    {
+      "id": 9,
+      "offer": "Extra ₹180 OFF",
+      "img": "/imges/rs9.jpeg",
+      "feature": "Quick-Release Straps",
+      "rating": 4.5,
+      "title": "PHIOX Swift Look",
+      "price": "₹4,299",
+      "oldPrice": "₹9,599",
+      "discount": "55% OFF"
+    },
+    {
+      "id": 10,
+      "offer": "Extra ₹90 OFF",
+      "img":"/imges/rs10.jpeg",
+      "feature": "HD Display Resolution",
+      "rating": 4.0,
+      "title": "PHIOX Vivid Round",
+      "price": "₹3,399",
+      "oldPrice": "₹7,499",
+      "discount": "55% OFF"
+    }
+  ],
+  "Speakers": [
+    {
+      "id": 1,
+      "offer": "Extra ₹150 OFF",
+      "img": "/imges/sp1.jpeg",
+      "feature": "20W RMS, Deep Bass",
+      "rating": 4.6,
+      "title": "PHIOX BeatBox 200",
+      "price": "₹1,999",
+      "oldPrice": "₹4,999",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 2,
+      "offer": "Extra ₹100 OFF",
+      "img": "/imges/sp2.jpeg",
+      "feature": "IPX7 Waterproof, 12 Hrs Playback",
+      "rating": 4.4,
+      "title": "PHIOX AquaSound",
+      "price": "₹1,699",
+      "oldPrice": "₹3,999",
+      "discount": "57% OFF"
+    },
+    {
+      "id": 3,
+      "offer": "Extra ₹200 OFF",
+      "img": "/imges/sp3.jpeg",
+      "feature": "TWS Multi-Sync Support",
+      "rating": 4.5,
+      "title": "PHIOX Duo-Party",
+      "price": "₹2,499",
+      "oldPrice": "₹5,999",
+      "discount": "58% OFF"
+    },
+    {
+      "id": 4,
+      "offer": "Extra ₹50 OFF",
+      "img":"/imges/sp4.jpeg",
+      "feature": "5W Output, Portable",
+      "rating": 4.0,
+      "title": "PHIOX Micro-Tune",
+      "price": "₹799",
+      "oldPrice": "₹1,899",
+      "discount": "58% OFF"
+    },
+    {
+      "id": 5,
+      "offer": "Extra ₹250 OFF",
+      "img": "/imges/sp5.jpeg",
+      "feature": "RGB Dynamic Light Show",
+      "rating": 4.3,
+      "title": "PHIOX RaveBox 50",
+      "price": "₹2,999",
+      "oldPrice": "₹6,999",
+      "discount": "57% OFF"
+    },
+    {
+      "id": 6,
+      "offer": "Extra ₹120 OFF",
+      "img": "/imges/sp6.jpeg",
+      "feature": "In-Built Mic for Calls",
+      "rating": 4.1,
+      "title": "PHIOX VoiceStream",
+      "price": "₹1,499",
+      "oldPrice": "₹3,599",
+      "discount": "58% OFF"
+    },
+    {
+      "id": 7,
+      "offer": "Extra ₹300 OFF",
+      "img": "/imges/sp7.jpeg",
+      "feature": "40W RMS, Passive Radiators",
+      "rating": 4.7,
+      "title": "PHIOX MegaBass 400",
+      "price": "₹3,499",
+      "oldPrice": "₹8,499",
+      "discount": "59% OFF"
+    },
+    {
+      "id": 8,
+      "offer": "Extra ₹80 OFF",
+      "img": "/imges/sp8.jpeg",
+      "feature": "Multiple Connectivity (AUX/USB/BT)",
+      "rating": 4.2,
+      "title": "PHIOX Multiplay S",
+      "price": "₹1,299",
+      "oldPrice": "₹2,999",
+      "discount": "57% OFF"
+    },
+    {
+      "id": 9,
+      "offer": "Extra ₹180 OFF",
+      "img": "/imges/sp9.jpeg",
+      "feature": "Up to 15 Hours Playtime",
+      "rating": 4.5,
+      "title": "PHIOX Endurance S1",
+      "price": "₹2,199",
+      "oldPrice": "₹5,499",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 10,
+      "offer": "Extra ₹110 OFF",
+      "img": "/imges/sp10.jpeg",
+      "feature": "FM Radio & SD Card Support",
+      "rating": 3.9,
+      "title": "PHIOX Retro Beat",
+      "price": "₹999",
+      "oldPrice": "₹2,499",
+      "discount": "60% OFF"
+    }
+  ],
+  "Home Theaters": [
+    {
+      "id": 1,
+      "offer": "Extra ₹500 OFF",
+      "img": "/imges/ht1.jpeg",
+      "feature": "5.1 Channel, Dolby Audio",
+      "rating": 4.6,
+      "title": "PHIOX Cinema 5.1",
+      "price": "₹12,999",
+      "oldPrice": "₹29,999",
+      "discount": "57% OFF"
+    },
+    {
+      "id": 2,
+      "offer": "Extra ₹800 OFF",
+      "img": "/imges/ht2.jpeg",
+      "feature": "Dolby Atmos, 5.1.2 Channel",
+      "rating": 4.7,
+      "title": "PHIOX Atmos Ultra",
+      "price": "₹17,999",
+      "oldPrice": "₹44,999",
+      "discount": "60% OFF"
+    },
+    {
+      "id": 3,
+      "offer": "Extra ₹300 OFF",
+      "img": "/imges/ht3.jpeg",
+      "feature": "2.1 Soundbar with Wireless Subwoofer",
+      "rating": 4.4,
+      "title": "PHIOX Bar 2.1 Pro",
+      "price": "₹7,999",
+      "oldPrice": "₹17,999",
+      "discount": "55% OFF"
+    },
+    {
+      "id": 4,
+      "offer": "Extra ₹200 OFF",
+      "img":"/imges/ht4.jpeg",
+      "feature": "100W RMS, Deep Bass",
+      "rating": 4.2,
+      "title": "PHIOX MaxSound 100",
+      "price": "₹5,499",
+      "oldPrice": "₹12,499",
+      "discount": "56% OFF"
+    },
+    {
+      "id": 5,
+      "offer": "Extra ₹600 OFF",
+      "img": "/imges/ht5.jpeg",
+      "feature": "HDMI ARC & Optical Input",
+      "rating": 4.5,
+      "title": "PHIOX Connect Hub",
+      "price": "₹14,999",
+      "oldPrice": "₹34,999",
+      "discount": "57% OFF"
+    },
+    {
+      "id": 6,
+      "offer": "Extra ₹400 OFF",
+      "img": "/imges/ht6.jpeg",
+      "feature": "Multiple EQ Modes",
+      "rating": 4.3,
+      "title": "PHIOX Custom Tone",
+      "price": "₹9,999",
+      "oldPrice": "₹22,999",
+      "discount": "56% OFF"
+    },
+    {
+      "id": 7,
+      "offer": "Extra ₹1000 OFF",
+      "img": "/imges/ht7.jpeg",
+      "feature": "7.1.2 Channel, High Fidelity",
+      "rating": 4.8,
+      "title": "PHIOX Ultimate Surround",
+      "price": "₹24,999",
+      "oldPrice": "₹64,999",
+      "discount": "61% OFF"
+    },
+    {
+      "id": 8,
+      "offer": "Extra ₹150 OFF",
+      "img": "/imges/ht8.jpeg",
+      "feature": "Tower Speakers Design",
+      "rating": 4.0,
+      "title": "PHIOX Tower Beat",
+      "price": "₹4,999",
+      "oldPrice": "₹10,999",
+      "discount": "55% OFF"
+    },
+    {
+      "id": 9,
+      "offer": "Extra ₹250 OFF",
+      "img": "/imges/ht9.jpeg",
+      "feature": "Bluetooth v5.3, LED Display",
+      "rating": 4.1,
+      "title": "PHIOX Digital 5.0",
+      "price": "₹6,499",
+      "oldPrice": "₹14,999",
+      "discount": "57% OFF"
+    },
+    {
+      "id": 10,
+      "offer": "Extra ₹350 OFF",
+      "img": "/imges/ht10.jpeg",
+      "feature": "Gaming Mode Low Latency",
+      "rating": 4.5,
+      "title": "PHIOX Game Audio Pro",
+      "price": "₹8,999",
+      "oldPrice": "₹19,999",
+      "discount": "55% OFF"
+    }
+  ]
+}

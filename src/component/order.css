@@ -1,0 +1,244 @@
+/* Base Styles */
+.order-track-container {
+  min-height: 100vh;
+  background: #f8f9fa;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+}
+
+.track-card {
+  margin-top: 30px;
+  background: #fff;
+  padding: 30px 30px 10px 30px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 650px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid #eee;
+}
+
+.success-icon {
+  color: #28a745;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.success-title {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.greeting {
+  color: #555;
+  margin-top: 8px;
+}
+
+.order-id span {
+  color: #ff6a00;
+  font-weight: 600;
+}
+
+/* Progress Bar + Road */
+.progress-wrapper {
+  margin: 30px 0 20px;
+  position: relative;
+}
+
+.progress-track {
+  position: relative;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.road-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #ddd;
+  z-index: 1;
+  border-radius: 2px;
+}
+
+.truck {
+  position: absolute;
+  top: 0px;
+  font-size: 28px;
+  transition: left 1s ease-in-out;
+  z-index: 3;
+  transform: translateX(-50%) scaleX(-1);
+}
+
+.stage {
+  position: relative;
+  text-align: center;
+  width: 20%;
+  z-index: 2;
+}
+
+.dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #ccc;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.dot.active {
+  background: #ff6a00;
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(255, 106, 0, 0.4);
+}
+
+.tick {
+  color: white;
+}
+
+.stage p {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.current-line {
+  margin-top: 15px;
+  color: #333;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.details-box,
+.summary-box {
+  background: #f9f9f9;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  text-align: left;
+  border: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.summary-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.summary-box li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 6px 0;
+  color: #444;
+}
+
+.track-btn {
+  margin-top: 25px;
+  background: #ff6a00;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 12px rgba(255, 106, 0, 0.4);
+}
+
+.track-btn:hover {
+  background: #ff8533;
+  box-shadow: 0 6px 18px rgba(255, 106, 0, 0.5);
+}
+
+
+.s-btn {
+  width: 50%;
+  padding: 10px ;
+  border: none;
+  border-radius: 5px;
+  background: #ff4444;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
+
+/* 🌐 Responsive Media Queries */
+
+/* Tablets / Medium Screens */
+@media (max-width: 768px) {
+  .track-card {
+    padding: 25px;
+  }
+
+  .success-title {
+    font-size: 1.4rem;
+  }
+
+  .truck {
+    font-size: 26px;
+  }
+
+  .stage p {
+    font-size: 0.8rem;
+  }
+
+  .current-line {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile / Small Screens */
+@media (max-width: 480px) {
+  .track-card {
+    padding: 20px;
+  }
+
+  .success-title {
+    font-size: 1.3rem;
+  }
+
+  .success-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .truck {
+    font-size: 24px;
+  }
+
+  .stage p {
+    font-size: 0.3rem;
+  }
+
+  .current-line {
+    font-size: 0.85rem;
+  }
+
+  .track-btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+
+  .progress-wrapper {
+    margin: 25px 0 15px;
+}
+}
