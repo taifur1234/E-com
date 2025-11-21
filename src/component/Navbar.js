@@ -85,7 +85,7 @@ useEffect(() => {
 const [chatMessages, setChatMessages] = useState([
   { sender: "bot", text: "Hi! Tap a question below to see the answer." },
 ]);
-const isMobilee = window.innerWidth < 768;
+const isMobilee = window.innerWidth < 770;
 const faq = [
   { question: "1. What are your shipping options?", answer: "We offer standard and express shipping across India." },
   { question: "2. What is your return policy?", answer: "You can return products within 15 days of delivery." },
@@ -152,16 +152,16 @@ const handleSubmit = (e) => {
 };
 
 
- const suggestions = [
+const suggestions = [
     "Airbuds",
-    "Neckband",
-    "Wired Headphone",
-    "Gaming Headphone",
-    "Smartwatch",
-    "Round Smartwatch",
-    "Speaker",
-    "HomeTheater",
-  ];
+    "Neckbands",
+    "Wired Headphones",
+    "Gaming Headphones",
+    "Smartwatches",
+    "Round Smartwatches",
+    "Speakers",
+    "HomeTheaters",
+  ];
 
  const handleChange = (e) => {
     const value = e.target.value;
@@ -181,9 +181,10 @@ const handleSubmit = (e) => {
     setQuery(option);
     setFiltered([]);
   };
-   const handleSearch = () => {
+const handleSearch = () => {
   const trimmedQuery = query.trim();
   if (trimmedQuery === "") return;
+
   const found = suggestions.some(
     (item) => item.toLowerCase() === trimmedQuery.toLowerCase()
   );
@@ -191,10 +192,14 @@ const handleSubmit = (e) => {
   if (found) {
     localStorage.setItem("citem", trimmedQuery);
     console.log("Saved:", trimmedQuery);
+
+    setShowSearch(false);   // ✅ CLOSE SEARCH BAR
+    setQuery("");            // ✅ OPTIONAL: clear input field
+
     navigate("/buds");
   } else {
-    alert("Please Search The Recmonded Product");
-  }
+    alert("Please Search The Recommended Product");
+  }
 };
 
 
