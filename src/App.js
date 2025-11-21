@@ -25,7 +25,7 @@ import Aboutt from './component/About';
 
 function App() {
 
-  // ⭐ GLOBAL CART COUNT
+  //  GLOBAL CART COUNT
   const [cartCount, setCartCount] = useState(0);
 
   // Load initial count
@@ -34,7 +34,7 @@ function App() {
     setCartCount(stored.length);
   }, []);
 
-  // ⭐ Update when product adds to cart
+  //  Update when product adds to cart
   const updateCart = () => {
     const stored = JSON.parse(localStorage.getItem("cartItems") || "[]");
     setCartCount(stored.length);
