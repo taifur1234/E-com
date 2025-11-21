@@ -44,7 +44,7 @@ function App() {
     <Router>
       <Routes>
 
-        {/* ---------------- HOME PAGE ---------------- */}
+        {/* ------------- HOME PAGE ------------- */}
         <Route
           path="/"
           element={
