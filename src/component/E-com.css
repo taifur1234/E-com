@@ -148,48 +148,6 @@ body{
 
 
 
-
-
-
-.footer-column p {
-  position: relative;
-  display: inline-block; /* underline ko text ke width tak rakhega */
-  cursor: pointer;
-  color: white;
-  transition: color 0.3s ease;
-   margin-bottom: 8px;
-}
-
-.footer-column p::after {
-  content: "";
-  position: absolute;
-  left: 15%;
-  bottom: -5px;
-  width: 0;
-  height: 3px;
-  background-color: orangered;
-  transform: translateX(-50%);
-  transition: width 0.3s ease-in-out;
-  border-radius: 2px;
-}
-
-
-
-.footer-column p:hover::after {
-  width: 20%;
-}
-
-/* Active state (optional) */
-.footer-column p.active {
-  color: white;
-}
-
-.footer-column p.active::after {
-  width: 100%;
-}
-
-
-
 .dropdown {
   display: none; 
   position: absolute;
