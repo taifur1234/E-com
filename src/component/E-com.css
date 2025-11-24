@@ -105,8 +105,9 @@ body{
   width: 100%;
 }
 
-
-
+.footer-column p:hover{
+  color: rgb(255, 255, 255, 0.718);
+}
 .m-nav1 p {
   position: relative;
   display: inline-block; /* underline ko text ke width tak rakhega */
